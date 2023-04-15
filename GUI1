@@ -1,0 +1,23 @@
+package GUI;
+import javax.swing.JFrame;
+
+
+public class Gui1 extends JFrame {
+//contantes y componentes(objeto)
+    public Gui1(){
+        
+        super("Ventana usando herencia");   //establece el TITULO de la ventana
+        
+        setSize(370, 450);                  //establece el TAMAÑO DE LA VENTANA
+        setLocationRelativeTo(null);        //la ventana se POSICIONA en el CENTRO de la ventana
+                                            // establece que el BOTON DE CERRAR PERMITIRÁ SALIR
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setResizable(false);                //establece que el TAMAÑO DE LA VENTANA NO SE PUEDE CAMBIAR
+        setVisible(true);
+        
+        
+    }
+    
+    
+    
+}
